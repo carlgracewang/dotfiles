@@ -1,0 +1,28 @@
+# note: https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd github config url
+
+import:
+    ~/.config/alacritty/themes/themes/catppuccin.yaml
+    ~/.config/alacritty/fonts.yml
+
+# General
+# Live config reload (changes require restart)
+live_config_reload:true
+
+# Env
+env:
+  TERM: tmux-256color
+
+# Window
+window:
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns:129
+    lines:35
+
+  padding:
+    x: 10
+    y: 10
+
+    # Spread additional padding evenly around the terminal contant
+    dynamic_padding: false
